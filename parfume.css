@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Montserrat:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid antiquewhite;
+    width: 600px;
+    height: 450px;
+    border-radius: 12px;
+    display: flex;
+    background-color: rgba(255, 252, 252, 0.951);
+
+
+}
+
+.img {
+    width: 300px;
+    height: 100%;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+}
+
+img {
+    border-radius: inherit;
+    object-fit: cover;
+}
+
+.text {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.header1 {
+    margin-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: rgba(0, 0, 0, 0.515);
+    width: 92px;
+    height: 15px;
+}
+
+.header2 {
+    font-family: 'Fraunces', serif;
+    margin-top: 17px;
+    width: 236px;
+    height: 96px;
+    font-size: 32px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.869);
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 24px;
+    color: rgba(0, 0, 0, 0.648);
+}
+
+.addtocard {
+    width: 236px;
+    height: 48px;
+    background-color: #3D8168;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 11.61px;
+    font-family: 'montserrat', sans-serif;
+    color: white;
+    cursor: pointer;
+
+}
+
+.addtocard:hover {
+    background-color: #1A4032;
+}
+
+
+.price {
+    display: flex;
+    margin-top: 29px;
+    gap: 15px;
+
+}
+
+.pricenew {
+
+    width: 127px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    color: #3D8168;
+    font-weight: 550;
+}
+
+.priceold {
+
+    font-family: 'Fraunces', serif;
+    margin-top: 5px;
+    line-height: 23px;
+    width: 48px;
+    height: 23px;
+    color: #6C7289;
+    text-decoration: line-through;
+}
